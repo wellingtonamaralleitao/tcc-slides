@@ -12,6 +12,10 @@
             h1, h2, h3, h4, h5, li {
                 color: #fff !important;
             }
+            .linus-img {
+                width: 140px;
+                height: 150px;
+            }
         </style>
     </head>
     <body>
@@ -20,10 +24,10 @@
 
                 <section data-markdown>
                     <script type="text/template">
-                        ####Estudo Esploraatório dos Bugs de Tratamento de Exceção na Plataforma Android
+                        ####Estudo Esploratório dos Bugs de Tratamento de Exceção na Plataforma Android
                         ![profile](images/me.png) <!-- .element: class="fragment" data-fragment-index="1" -->
                         ####Wellyngton Amaral Leitão <!-- .element: class="fragment" data-fragment-index="1" -->
-                        *Orientador: Jefferson de Carvalho* <!-- .element: class="fragment" data-fragment-index="1" -->
+                        *Orientador: Dr. Jefferson da Silva Carvalho* <!-- .element: class="fragment" data-fragment-index="1" -->
                     </script>
                 </section>
 
@@ -38,26 +42,33 @@
                     </script>
                 </section>
 
-                <section data-background="#00ffff">
+                <section data-background="#0066ff">
                     <section>
                         <h1>Bugs</h1>
                     </section>
 
                     <section>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <img class="linus-img" src="images/linus.jpg">
+                        <h4>Hey, that's not a bug, that's a <b>feature!</b></h4> - Linus Torvalds
                     </section>
 
-                    <section data-markdown data-background="images/mariner1.jpg">
+                    <section data-background="images/mariner1.jpg">
+                        <ul>
+                            <li>A Mariner 1, foi a primeira nave espacial do Programa Mariner.</li>
+                            <li>Lançada em 22 de julho de 1962. Sonda para Vênus</li>
+                            <li>Bug no Cálculo da roda.</li>
+                            <li>Auto destruição.</li>
+                            <li>Prejuízo 135 milhões de dolares.</li>
+                        </ul>
+                    </section>
+
+                    <section data-markdown>
                         <script type="text/template">
-                            ## Casos Famosos de Bugs
-                            - Bugs <!-- .element: class="fragment" data-fragment-index="1" -->
-                            - Exceções <!-- .element: class="fragment" data-fragment-index="2" -->
-                            - Tratamento de Exceção <!-- .element: class="fragment" data-fragment-index="3" -->
-                            - Open Source <!-- .element: class="fragment" data-fragment-index="4" -->
-                            - Android <!-- .element: class="fragment" data-fragment-index="5" -->
+                            #### [IEEE] Definições Defeito, Falha, Erro e Falta
+                            - Defeito: Evento que altera o estado interno. Pode gerar uma ou mais falhas <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Falha: A constatação do defeito. Funcionalidade não segue fluxo (happy path) <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Erro: Estado interno que possibilitou o defeito. Seja hardware ou Software <!-- .element: class="fragment" data-fragment-index="3" -->
+                            - Falta: É a causa física ou algorítmica de um erro. (ROCHA, 2014). <!-- .element: class="fragment" data-fragment-index="4" -->
                         </script>
                     </section>
 
@@ -74,9 +85,24 @@
                         <h4>Teste H5</h4>
                         <h4>Teste H5</h4>
                     </section>
+
+                    <section data-background="images/anders1.png">
+                    </section>
+
+                    <section>
+                        <div>Checked Exceptions are a good idea because although you can ignore them, you have to willfully do it. You can’t accidentally say, “I don’t care.” You have to explicitly say, “I don’t care.” - James Goslin</div>
+                        <img src="images/james1.jpg">
+                        <!-- <h4>http://www.artima.com/intv/handcuffs.html</h4> -->
+                    </section>
+
+                    <section>
+                        <div>"Checked exceptions are bad because programmers just abuse them by always catching them and dismissing them which leads to problems being hidden and ignored that would otherwise be presented to the user". - Anders Hejlsberg</div>
+                        <img src="images/anders.jpg">
+                        <h4>http://www.artima.com/intv/handcuffs.html</h4>
+                    </section>
                 </section>
 
-                <section data-background="#ffd633">
+                <section data-background="#ff9933">
                     <section>
                         <h1>Tratamento de Exceção</h1>
                     </section>
@@ -110,7 +136,6 @@
                             ## Bug Projeto Eclipse
                             Reportado com "Exceção Lançada e não Tratada"
                             ![profile](images/figure1.png) <!-- .element: class="fragment" data-fragment-index="1" -->
-
                         </script>
                     </section>
 
@@ -174,7 +199,7 @@
                     </section>
                 </section>
 
-                <section data-background="#42dd63">
+                <section data-background="#009933">
                     <section>
                         <h1>Android</h1>
                     </section>
