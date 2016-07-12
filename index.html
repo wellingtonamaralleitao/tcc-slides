@@ -1,0 +1,310 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>reveal.js - Slide Backgrounds</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+        <style type="text/css" media="screen">
+            h1, h2, h3, h4, h5, li {
+                color: #fff !important;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ####Estudo Esploraatório dos Bugs de Tratamento de Exceção na Plataforma Android
+                        ![profile](images/me.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+                        ####Wellyngton Amaral Leitão <!-- .element: class="fragment" data-fragment-index="1" -->
+                        *Orientador: Jefferson de Carvalho* <!-- .element: class="fragment" data-fragment-index="1" -->
+                    </script>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Principais Pontos
+                        - Bugs <!-- .element: class="fragment" data-fragment-index="1" -->
+                        - Exceções <!-- .element: class="fragment" data-fragment-index="2" -->
+                        - Tratamento de Exceção <!-- .element: class="fragment" data-fragment-index="3" -->
+                        - Open Source <!-- .element: class="fragment" data-fragment-index="4" -->
+                        - Android <!-- .element: class="fragment" data-fragment-index="5" -->
+                    </script>
+                </section>
+
+                <section data-background="#00ffff">
+                    <section>
+                        <h1>Bugs</h1>
+                    </section>
+
+                    <section>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                    <section data-markdown data-background="images/mariner1.jpg">
+                        <script type="text/template">
+                            ## Casos Famosos de Bugs
+                            - Bugs <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Exceções <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Tratamento de Exceção <!-- .element: class="fragment" data-fragment-index="3" -->
+                            - Open Source <!-- .element: class="fragment" data-fragment-index="4" -->
+                            - Android <!-- .element: class="fragment" data-fragment-index="5" -->
+                        </script>
+                    </section>
+
+                </section>
+
+                <section data-background="#f24f45">
+                    <section>
+                        <h1>Exceções</h1>
+                    </section>
+
+                    <section>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+                </section>
+
+                <section data-background="#ffd633">
+                    <section>
+                        <h1>Tratamento de Exceção</h1>
+                    </section>
+
+                    <section>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+                </section>
+
+                <section data-background="#751aff">
+                    <section>
+                        <h1>Bug de Tratamento de Exceção</h1>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ## Bug de Tratamento de Exceção
+                            - Não existe um termo largamente aceito. <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Definimos como "Bug de tratamento de exceção" <!-- .element: class="fragment" data-fragment-index="2" -->
+                              - Problemas no código do mecanismo <!-- .element: class="fragment" data-fragment-index="3" -->
+                              - Falta do código do mecanismo <!-- .element: class="fragment" data-fragment-index="4" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+
+                        <script type="text/template">
+                            ## Bug Projeto Eclipse
+                            Reportado com "Exceção Lançada e não Tratada"
+                            ![profile](images/figure1.png) <!-- .element: class="fragment" data-fragment-index="1" -->
+
+                        </script>
+                    </section>
+
+                    <section>
+                        <h2>Exceção Não Capturada (Tratada)</h2>
+                        <img src="images/dog1.gif">
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                    <section>
+                        <h2>Exceção Não Lançada</h2>
+                        <img src="images/baseball.gif">
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                    <section>
+                        <h2>Exceção lançada ou capturada incorreta</h2>
+                        <img src="images/thor.gif">
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                    <section>
+                        <h2>Problemas no tratador</h2>
+                        <img src="images/dog2.gif">
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                    <section>
+                        <h2>Problema no bloco finally</h2>
+                        <img src="images/joker.gif">
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+
+                </section>
+
+                <section data-background="#999966">
+                    <section>
+                        <h1>Open Source</h1>
+                    </section>
+
+                    <section>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+                </section>
+
+                <section data-background="#42dd63">
+                    <section>
+                        <h1>Android</h1>
+                    </section>
+
+                    <section>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                        <h4>Teste H5</h4>
+                    </section>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+        <script>
+            Reveal.initialize({
+
+                dependencies: [
+        // Cross-browser shim that fully implements classList - https://github.com/eligrey/classList.js/
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+
+        // Interpret Markdown in <section> elements
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+        // Syntax highlight for <code> elements
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+
+        // Zoom in and out with Alt+click
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+
+        // Speaker notes
+        { src: 'plugin/notes/notes.js', async: true },
+
+        // MathJax
+        { src: 'plugin/math/math.js', async: true }
+    ],
+
+            // Display controls in the bottom right corner
+            controls: true,
+
+            // Display a presentation progress bar
+            progress: true,
+
+            // Display the page number of the current slide
+            slideNumber: false,
+
+            // Push each slide change to the browser history
+            history: false,
+
+            // Enable keyboard shortcuts for navigation
+            keyboard: true,
+
+            // Enable the slide overview mode
+            overview: true,
+
+            // Enables touch navigation on devices with touch input
+            touch: true,
+
+            // Loop the presentation
+            loop: false,
+
+            // Change the presentation direction to be RTL
+            rtl: false,
+
+            // Randomizes the order of slides each time the presentation loads
+            shuffle: false,
+
+            // Turns fragments on and off globally
+            fragments: true,
+
+            // Flags if the presentation is running in an embedded mode,
+            // i.e. contained within a limited portion of the screen
+            embedded: false,
+
+            // Flags if we should show a help overlay when the questionmark
+            // key is pressed
+            help: true,
+
+            // Flags if speaker notes should be visible to all viewers
+            showNotes: false,
+
+            // Number of milliseconds between automatically proceeding to the
+            // next slide, disabled when set to 0, this value can be overwritten
+            // by using a data-autoslide attribute on your slides
+            autoSlide: 0,
+
+            // Stop auto-sliding after user input
+            autoSlideStoppable: true,
+
+            // Use this method for navigation when auto-sliding
+            autoSlideMethod: Reveal.navigateNext,
+
+            // Enable slide navigation via mouse wheel
+            mouseWheel: false,
+
+            // Hides the address bar on mobile devices
+            hideAddressBar: true,
+
+            // Opens links in an iframe preview overlay
+            previewLinks: false,
+
+            // Transition style
+            transition: 'default', // none/fade/slide/convex/concave/zoom
+
+            // Transition speed
+            transitionSpeed: 'default', // default/fast/slow
+
+            // Transition style for full page slide backgrounds
+            backgroundTransition: 'default', // none/fade/slide/convex/concave/zoom
+
+            // Number of slides away from the current that are visible
+            viewDistance: 3,
+
+            // Parallax background image
+            parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+
+            // Parallax background size
+            parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+
+            // Number of pixels to move the parallax background per slide
+            // - Calculated automatically unless specified
+            // - Set to 0 to disable movement along an axis
+            parallaxBackgroundHorizontal: null,
+            parallaxBackgroundVertical: null
+
+
+        });
+    </script>
+    </body>
+</html>
