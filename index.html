@@ -37,7 +37,6 @@
                         - Bugs <!-- .element: class="fragment" data-fragment-index="1" -->
                         - Exceções <!-- .element: class="fragment" data-fragment-index="2" -->
                         - Tratamento de Exceção <!-- .element: class="fragment" data-fragment-index="3" -->
-                        - Open Source <!-- .element: class="fragment" data-fragment-index="4" -->
                         - Android <!-- .element: class="fragment" data-fragment-index="5" -->
                     </script>
                 </section>
@@ -79,15 +78,27 @@
                         <h1>Exceções</h1>
                     </section>
 
-                    <section>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### Condição Excepcional (crash)
+                            ### Hierarquia de Exceções Java/Android <!-- .element: class="fragment" data-fragment-index="1" -->
+                        </script>
                     </section>
 
-                    <section data-background="images/anders1.png">
+                    <section>
+                        <img src="images/anders2.jpg">
                     </section>
+
+                    <section>
+                        <h2>Hierarquia de Exceções Java/Android</h2>
+                        <img src="images/figure3.png">
+                    </section>
+
+                    <section>
+                        <h2>Checked vs Unchecked</h2>
+                        <img src="images/figure4.jpg">
+                    </section>
+
 
                     <section>
                         <div>Checked Exceptions are a good idea because although you can ignore them, you have to willfully do it. You can’t accidentally say, “I don’t care.” You have to explicitly say, “I don’t care.” - James Goslin</div>
@@ -107,11 +118,12 @@
                         <h1>Tratamento de Exceção</h1>
                     </section>
 
-                    <section>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ### Blocos *try*, *catch* e *finally*
+                            ### Pode-se ignorar uma exceção (checked) com throws... <!-- .element: class="fragment" data-fragment-index="1" -->
+                            ### Ou lançar com throw :) <!-- .element: class="fragment" data-fragment-index="2" -->
+                        </script>
                     </section>
                 </section>
 
@@ -131,7 +143,6 @@
                     </section>
 
                     <section data-markdown>
-
                         <script type="text/template">
                             ## Bug Projeto Eclipse
                             Reportado com "Exceção Lançada e não Tratada"
@@ -140,62 +151,53 @@
                     </section>
 
                     <section>
-                        <h2>Exceção Não Capturada (Tratada)</h2>
                         <img src="images/dog1.gif">
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <h2>Exceção Não Capturada (Tratada)</h2>
+                        <h4>Exceções lançadas, e que não foram tratadas</h4>
                     </section>
 
                     <section>
-                        <h2>Exceção Não Lançada</h2>
+                        <img src="images/image1.png">
+                    </section>
+
+                    <section>
                         <img src="images/baseball.gif">
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <h2>Exceção Não Lançada</h2>
+                        <h4>Exceções que não foram lançadas quando deveriam</h4>
                     </section>
 
                     <section>
-                        <h2>Exceção lançada ou capturada incorreta</h2>
+                        <img src="images/image5.png">
+                    </section>
+
+                    <section>
                         <img src="images/thor.gif">
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <h2>Exceção lançada ou capturada incorreta</h2>
+                        <h4>Contextualizada como exceção errada sendo lançada ou capturada</h4>
                     </section>
 
                     <section>
-                        <h2>Problemas no tratador</h2>
+                        <img src="images/image3.png">
+                    </section>
+
+                    <section>
                         <img src="images/dog2.gif">
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <h2>Problemas no tratador</h2>
+                        <h4>Exceções tratadas com erro dentro do corpo do bloco catch</h4>
                     </section>
 
                     <section>
-                        <h2>Problema no bloco finally</h2>
+                        <img src="images/image4.png">
+                    </section>
+
+                    <section>
                         <img src="images/joker.gif">
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                    </section>
-
-                </section>
-
-                <section data-background="#999966">
-                    <section>
-                        <h1>Open Source</h1>
+                        <h2>Problema no bloco finally</h2>
+                        <h4>Problemas ocorridos no bloco de código finally</h4>
                     </section>
 
                     <section>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                        <img src="images/image2.png">
                     </section>
                 </section>
 
@@ -204,12 +206,119 @@
                         <h1>Android</h1>
                     </section>
 
-                    <section>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
-                        <h4>Teste H5</h4>
+                    <section data-markdown>
+                        <script type="text/template">
+                            ####Sistema criado pela open handset alliance (Google)
+                            ####Roda kernel Linux 2.6. <!-- .element: class="fragment" data-fragment-index="1" -->
+                            ####Utiliza Java Como Liguagem Base <!-- .element: class="fragment" data-fragment-index="2" -->
+                            ####Arquitetura de Camadas<!-- .element: class="fragment" data-fragment-index="3" -->
+                        </script>
                     </section>
+
+                    <section>
+                        <img src="images/android.png">
+                    </section>
+
+                    <section>
+                        <img src="images/android2.png">
+                    </section>
+                </section>
+
+                <section data-background="#999966">
+                    <section>
+                        <h1>Desenvolvimento e Aplicação do Trabalho</h1>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Objetivo
+                            ####Resposta para três perguntas <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Existem bugs relacionados a tratamento de exceção na plataforma android? <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Quais tipos de bugs relacionados a tratamento de exceção estão presentes na
+plataforma android? <!-- .element: class="fragment" data-fragment-index="3" -->
+                            - Com que frequencia cada tipo de bug ocorre e em qual situação o bug se
+demonstra mais recorrente. <!-- .element: class="fragment" data-fragment-index="4" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Para isso é preciso...
+                            - Fazer uma busca exploratória em Projetos Open Source. <!-- .element: class="fragment" data-fragment-index="1" -->
+                            - Catalogar bugs seguindo padrões para determinação de tipos de bugs. <!-- .element: class="fragment" data-fragment-index="2" -->
+                            - Extrair dados que mostrem a ocorrencia de bugs na plataforma <!-- .element: class="fragment" data-fragment-index="3" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Estudo Exploratório
+                            - Baseado em projetos no Github. <!-- .element: class="fragment" data-fragment-index="1" -->
+                             - O projeto deverá ser de código aberto.
+                             - O projeto deverá ter pelo menos um ano no repositório, desde de sua data de
+criação.
+                             - O projeto deverá apresentar 100 (cem) ou mais issues cadastradas.
+                             - O projeto deverá ter sido publicado na loja de distribuição de apps do android
+(googleplay).
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Estudo Exploratório
+                            #### Projeto do github, que mapeia projetos open source android. <!-- .element: class="fragment" data-fragment-index="1" -->
+                            #### Deve ser escolhido 3 projetos de categorias diferentes e tamanhos diferentes. <!-- .element: class="fragment" data-fragment-index="2" -->
+                            ![projeto open source](images/image10.png) <!-- .element: class="fragment" data-fragment-index="3" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        - Pequeno porte = 100 a 499 pull requests
+                        - Médio porte = 500 a 999 pull requests
+                        - Grande porte = 1000 ou mais pull requests
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Estudo Exploratório (Categorias)
+                            ![tabela categorias](images/image6.png)
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Estudo Exploratório (Query)
+                             - Para fazer a busca foi escolhida um string que classificasse a maior quantidade de bugs relacionados a tratamento de exceção na plataforma android. <!-- .element: class="fragment" data-fragment-index="1" -->
+                             - handling OR exception OR catch <!-- .element: class="fragment" data-fragment-index="2" -->
+                        </script>
+                    </section>
+
+                    <section data-markdown>
+                        <script type="text/template">
+                            ##Estudo Exploratório (Problemas)
+                             - Falta de padrão para realizar mudanças no código. <!-- .element: class="fragment" data-fragment-index="1" -->
+                             - Falta de organização de labels. <!-- .element: class="fragment" data-fragment-index="2" -->
+                             - Issues são abertas erroneamente. <!-- .element: class="fragment" data-fragment-index="3" -->
+                             - Pouca modularidade nos commits. <!-- .element: class="fragment" data-fragment-index="4" -->
+                             - Detalhamento informal sobre a issue <!-- .element: class="fragment" data-fragment-index="5" -->
+                             - Issues Repetidas <!-- .element: class="fragment" data-fragment-index="6" -->
+                        </script>
+                    </section>
+
+                    <section>
+                        <h2>Estudo Exploratório (Catálogo)</h2>
+                        <img src="images/image7.png">
+                    </section>
+
+                    <section>
+                        <h2>Consolidação</h2>
+                        <img src="images/image8.png">
+                    </section>
+
+                    <section>
+                        <img src="images/image9.png">
+                    </section>
+
                 </section>
             </div>
         </div>
