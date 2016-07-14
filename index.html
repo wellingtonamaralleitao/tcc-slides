@@ -16,6 +16,16 @@
                 width: 140px;
                 height: 150px;
             }
+            .font-refer {
+                font-size: 20px !important;
+                text-align: justify;
+            }
+            .font-refer div {
+                padding: 10px;
+            }
+            .final img {
+                height: 550px
+            }
         </style>
     </head>
     <body>
@@ -78,15 +88,15 @@
                         <h1>Exceções</h1>
                     </section>
 
+                    <section>
+                        <img src="images/anders2.jpg">
+                    </section>
+
                     <section data-markdown>
                         <script type="text/template">
                             ### Condição Excepcional (crash)
                             ### Hierarquia de Exceções Java/Android <!-- .element: class="fragment" data-fragment-index="1" -->
                         </script>
-                    </section>
-
-                    <section>
-                        <img src="images/anders2.jpg">
                     </section>
 
                     <section>
@@ -99,6 +109,11 @@
                         <img src="images/figure4.jpg">
                     </section>
 
+                    <section>
+                        <div>"Checked exceptions are bad because programmers just abuse them by always catching them and dismissing them which leads to problems being hidden and ignored that would otherwise be presented to the user". - Anders Hejlsberg</div>
+                        <img src="images/anders.jpg">
+                        <h4>http://www.artima.com/intv/handcuffs.html</h4>
+                    </section>
 
                     <section>
                         <div>Checked Exceptions are a good idea because although you can ignore them, you have to willfully do it. You can’t accidentally say, “I don’t care.” You have to explicitly say, “I don’t care.” - James Goslin</div>
@@ -106,11 +121,6 @@
                         <!-- <h4>http://www.artima.com/intv/handcuffs.html</h4> -->
                     </section>
 
-                    <section>
-                        <div>"Checked exceptions are bad because programmers just abuse them by always catching them and dismissing them which leads to problems being hidden and ignored that would otherwise be presented to the user". - Anders Hejlsberg</div>
-                        <img src="images/anders.jpg">
-                        <h4>http://www.artima.com/intv/handcuffs.html</h4>
-                    </section>
                 </section>
 
                 <section data-background="#ff9933">
@@ -319,6 +329,103 @@ criação.
                         <img src="images/image9.png">
                     </section>
 
+                    <section>
+                        <img src="images/image11.png">
+                    </section>
+
+                    <section>
+                        <img src="images/image12.png">
+                    </section>
+                </section>
+
+                <section data-markdown>
+                    <script type="text/template">
+                        ## Conclusões
+                         - Abordagem desafiadora. <!-- .element: class="fragment" data-fragment-index="1" -->
+                         - Pode-se comprovar que existem bugs de tratamento de exceção <!-- .element: class="fragment" data-fragment-index="2" -->
+                         - Exceção não é tratada por algum motivo. <!-- .element: class="fragment" data-fragment-index="3" -->
+                         - Em projetos de pequeno, médio ou grande porte. <!-- .element: class="fragment" data-fragment-index="4" -->
+                    </script>
+                </section>
+
+                <section class="font-refer">
+                    REFERÊNCIAS
+                    <div>
+                        ROCHA, Lincoln S. Tratamento de Exceção em Sistemas Ubíquos: Evolução do
+                        Tratamento e Requisitos Desafiadores. 2011. 10 f. Dissertação (Qualificação Doutorado) -
+                        Ufc, [S. l.], 2011.
+                    </div>
+                    <div>
+                        BARBOSA, Eiji Adachi Medeiros. Sistema de Recomendação para Código de Tratamento
+                        de Exceções. 2012. 125 f. Dissertação (Mestrado) - Puc-rio, Rio de Janeiro, 2012.
+                    </div>
+                    <div>
+                        EBERT, F. CASTOR, F. A Study on Developer’s Perception about Exception Handling
+                        Bugs. Universidade Federal de Pernambuco – UFP. Pernambuco, 2013.
+                    </div>
+                    <div>
+                        FILHO, F. C., GARCIA, A., RUBIRA, C. M. Error Handling as an Aspect. In: Proceedings
+                        of the 2nd Workshop on Best Practices in Applying Aspect-Oriented Software Development
+                        (BPAOSD'07), Vancouver, ACM, 2007. ISBN: 978-1-59593-662-2
+                        doi>10.1145/1229485.1229486.
+                    </div>
+                    <div>
+                        JONATHAN, M. Exceções em Java. Universidade Federal do Rio de Janeiro – UFRJ. Rio de
+                        Janeiro, 2011.
+                    </div>
+                    <div>
+                        LECHETA, R. Google Android - aprenda a criar aplicações para dispositivos móveis
+                        com o android SDK – 2 ed – São Paulo. Novatec Editora, 2010.
+                    </div>
+                    <div>
+                        LIGUORI, R. Java 7 – Pocket Guide – 2 ed – Sebastopol (Califórnia). O'Reilly Media, 2013.
+                    </div>
+                    <div>
+                        LOPES, R. Tratamento de Erros com Exceções. Universidade Federal de Campina Grande
+                        – Laboratório de Sistemas Distribuídos 2009. Disponível em:
+                        <http://www.dsc.ufcg.edu.br/~raquel/p2-2009.1/excecoes.htm>. Acesso em: 22 out. 2013.
+                    </div>
+                    <div>
+                        RICARDO, L. Google Android – Aprenda a Criar Aplicações para Dispositivos Móveis
+                        Com o Android SDK – 4 ed - Novatec, 2015.
+                    </div>
+                    <div>
+                        RICARTE, M. Programação Orientada a Objetos - Uma Abordagem com Java. 2001
+                        Universidade Estadual de Campinas - Departamento de Engenharia de Computação e
+                        Automação Industrial. Faculdade de Engenharia Elétrica e de Computação.
+                    </div>
+                </section>
+
+                <section class="font-refer">
+                    <div>
+                        ROBERT, A. Exception Handling - FSU Department of Computer Science, 2000.
+                        37
+                    </div>
+                    <div>
+                        SANTOS, M. Estendendo a Ferramenta SAFE para JBOSS AOP. Rio de Janeiro, 2010.
+                        147p. Dissertação de Mestrado – Departamento de Informática, Pontifícia. Universidade
+                        Católica do Rio de Janeiro.
+                    </div>
+                    <div>
+                        SIERRA, K. Certificação Sun para Programador Java 6. Alta Books, 2008.
+                    </div>
+                    <div>
+                        SOMMERVILLE, I. Engenharia de Software. Pearson Education, 9ª edição – 2011.
+                    </div>
+                    <div>
+                        TABORDA, S. Exceções Conceitos. 2007. Disponível em:
+                        <http://sergiotaborda.wordpress.com/desenvolvimento-de-software/java/trabalhando-comexcecoes-conceitos/>.
+                        Acesso em: 25 nov. 2013.
+                        GARGENTA, M. Learning Android. United States of America USA, 2011. O’Reilly Media,
+                        Inc., 1005 Gravenstein Highway North
+                    </div>
+                </section>
+
+                <section class="final" data-markdown>
+                    <script type="text/template">
+                        ## Obrigado!
+                        ![dúvidas](images/mickey.gif)
+                    </script>
                 </section>
             </div>
         </div>
